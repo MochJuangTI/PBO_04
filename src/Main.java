@@ -1,5 +1,6 @@
 import Circle.Circle;
 import Rectangle.Rectangle;
+import Square.Square;
 import Triangle.*;
 
 public class Main {
@@ -13,6 +14,7 @@ public class Main {
 
         Rectangle EFG = new Rectangle("EFG", 3.0, 5.0);
         Circle HIJ = new Circle("HIJ", 7.0);
+        Square UPQ = new Square("UPQ", 7.0);
 
         ABC.getInfo();
         BCD.getInfo();
@@ -22,5 +24,6 @@ public class Main {
         KLM.getInfo();
         NOP.getInfo();
         RSP.getInfo();
+        UPQ.getInfo();
     }
 }
